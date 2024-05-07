@@ -30,8 +30,14 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-
 		</dependency>
+		<!--Below is the dependency for Springboot Kafka, version auto calculated for current spring version-->
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
